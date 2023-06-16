@@ -27,10 +27,10 @@ def upload_file_to_dropbox(url):
         get_links(URL)
 
         # Set path for txt file containing today's news
-        ringer_news = os.path.basename(f"drop-box/news.txt {current_date}")
+        ringer_news = os.path.basename(f"drop-box/NBA News.txt")
 
         # Name of the file we will write into dropbox
-        file_name = f"NBA News on {current_date}.txt"
+        file_name = f"NBA-News-{current_date}.txt"
 
         # Open the file in binary mode and read its contents
         with open(ringer_news, "rb") as file:
