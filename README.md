@@ -50,7 +50,7 @@ get_links(url)
 
 ERROR HANDLING:
 
-Potential errors may occur such as the DropBox API not being successful in connecting or the file failing to write and upload into your DropBox folder. If this occurs, you may need to check your scope to ensure your app is allowed to write and upload to DropBox. Generating a new access token is also often a good fix.
+Potential errors may occur such as the DropBox API not being successful in connecting or the file failing to write and upload into your DropBox folder. If this occurs, you may need to check your scope to ensure your app is allowed to write and upload to DropBox. Generating a new access token is also often needed as the current one may have expired or become null after changing your app's permissions.
 
 
 
